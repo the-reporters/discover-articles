@@ -71,19 +71,12 @@ export default function Content({ category, headline, paragraph, rating }) {
   return (
     <ContentContainer>
       <ArticleContainer>
-        <Label>Economy</Label>
+        <Label>{category}</Label>
         <HeadlineContainer>
-          <h1>
-            In the Global Fight for Economic Dominance, Trade Is the Easy Part
-          </h1>
+          <h1>{headline}</h1>
         </HeadlineContainer>
-        <ArticleParagraph>
-          BEIJING—China held off from retaliating against the U.S. after
-          President Trump signed a bill supporting Hong Kong’s anti-Beijing
-          protesters, as both sides remained confident they can sign a partial
-          trade deal in the coming weeks, officials in the U.S. and China said.
-        </ArticleParagraph>
-        <Rating>4.5/5</Rating>
+        <ArticleParagraph>{paragraph}</ArticleParagraph>
+        <Rating>{rating}</Rating>
       </ArticleContainer>
     </ContentContainer>
   );
