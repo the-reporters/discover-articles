@@ -5,6 +5,7 @@ import GlobalStyles from "./GlobalStyles";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
+import Contribute from "./pages/Contribute";
 
 //STYLE Start
 
@@ -22,6 +23,7 @@ function App() {
       <GlobalStyles />
       <Header />
       <Content />
+      <Contribute />
       <Footer />
     </AppContainer>
   );
