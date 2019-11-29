@@ -21,6 +21,9 @@ const NewArticle = styled.h3`
   font-size: 0.8rem;
   margin: 20px;
   color: #ff7262;
+  &:active {
+    color: #333;
+  }
 `;
 
 export default function Header() {
