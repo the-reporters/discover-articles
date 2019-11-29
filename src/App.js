@@ -1,19 +1,28 @@
 import React from "react";
+import styled from "@emotion/styled";
 import GlobalStyles from "./GlobalStyles";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Contentlist from "./pages/Conentlist";
+import Content from "./components/Content";
+
+//STYLE Start
+
+const AppContainer = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+`;
+
+//STYLE End
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <GlobalStyles />
       <Header />
-      <main>
-        <Contentlist />
-      </main>
+      <Content />
       <Footer />
-    </div>
+    </AppContainer>
   );
 }
 
