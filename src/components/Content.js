@@ -3,6 +3,10 @@ import styled from "@emotion/styled";
 
 //STYLE start
 
+const ArticleLink = styled.a`
+  text-decoration: none;
+`;
+
 const ContentContainer = styled.main`
   display: flex;
   flex-flow: row nowrap;
@@ -87,9 +91,11 @@ export default function Content() {
       {content.map(article => (
         <ArticleContainer key={article.id}>
           <Label>{article.category}</Label>
-          <HeadlineContainer>
-            <h1>{article.headline}</h1>
-          </HeadlineContainer>
+          <ArticleLink href={article.url} target={"_blank"}>
+            <HeadlineContainer>
+              <h1>{article.headline}</h1>
+            </HeadlineContainer>
+          </ArticleLink>
           <ArticleParagraph>{article.paragraph}</ArticleParagraph>
           <Rating>{article.rating}/5</Rating>
         </ArticleContainer>
