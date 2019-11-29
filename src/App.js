@@ -16,6 +16,16 @@ const AppContainer = styled.div`
   flex-flow: column nowrap;
 `;
 
+const ContentContainer = styled.main`
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  overflow-x: auto;
+`;
+
 //STYLE End
 
 function App() {
@@ -24,10 +34,12 @@ function App() {
       <GlobalStyles />
       <Router>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Content} />
-          <Route path="/contribute" component={Contribute} />
-        </Switch>
+        <ContentContainer>
+          <Switch>
+            <Route exact path="/" component={Content} />
+            <Route path="/contribute" component={Contribute} />
+          </Switch>
+        </ContentContainer>
         <Footer />
       </Router>
     </AppContainer>
