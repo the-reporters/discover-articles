@@ -1,0 +1,132 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "category": "economy",
+      "headline": "In the Global Fight for Economic Dominance, Trade Is the Easy Part",
+      "paragraph": "Trade is the easy part. It’s what comes next that should scare you going into 2020 and beyond.",
+      "rating": 4,
+      "url": "https://www.bloomberg.com/news/articles/2019-11-22/trade-war-latest-new-economy-forum-kissinger-paulson-china-k3a3f1he"
+    },
+    {
+      "id": 2,
+      "category": "economy",
+      "headline": "China Protests U.S. Law Supporting Hong Kong but Signals Hope for Trade Deal",
+      "paragraph": "BEIJING—China held off from retaliating against the U.S. after President Trump signed a bill supporting Hong Kong’s anti-Beijing protesters, as both sides remained confident they can sign a partial trade deal in the coming weeks, officials in the U.S. and China said.",
+      "rating": 3,
+      "url": "https://www.wsj.com/articles/china-protests-new-u-s-law-supporting-hong-kong-but-signals-hope-for-trade-deal-11574948698"
+    },
+    {
+      "id": 3,
+      "category": "economy",
+      "headline": "India's economy seen growing at 4.7% in Sept qtr",
+      "paragraph": "India's economy probably expanded at its weakest pace in more than six years in the quarter to September, a Reuters poll showed, as consumer demand and private investment weakened further and a global slowdown hit exports.",
+      "rating": 4,
+      "url": "https://www.nasdaq.com/articles/preview-indias-economy-seen-growing-at-4.7-in-sept-qtr-2019-11-28-0"
+    },
+    {
+      "id": 4,
+      "category": "economy",
+      "headline": "Capitalism is in crisis. And we cannot get out of it by carrying on as before",
+      "paragraph": "General elections are rarely epoch-defining events. Though the parties pretend that their political differences are large, in economic terms they rarely are. But this one could be different.",
+      "rating": 2,
+      "url": "https://www.theguardian.com/commentisfree/2019/nov/08/economy-crisis-capitalists-1945-1979"
+    },
+    {
+      "id": 5,
+      "category": "sport",
+      "headline": "Manchester City investment from US breaks global sports valuation",
+      "paragraph": "The parent company of Premier League champions Manchester City has announced a £389m investment from US private equity firm Silver Lake.",
+      "rating": 4,
+      "url": "https://www.bbc.com/news/business-50570117"
+    },
+    {
+      "id": 6,
+      "category": "sport",
+      "headline": "Premier League: What happened in the English top flight on Saturday?",
+      "paragraph": "Roberto Firmino scored a late winner as Premier League leaders Liverpool maintained their eight-point advantage over closest challengers Leicester City.",
+      "rating": 3,
+      "url": "https://www.bbc.com/sport/football/50531739"
+    },
+    {
+      "id": 7,
+      "category": "sport",
+      "headline": "England Men's team win three awards at British Sports Awards",
+      "paragraph": "Ben Stokes has been named Sportsman of the Year at the British Sports Awards as the England cricket team won three awards on the day.",
+      "rating": 1,
+      "url": "https://www.ecb.co.uk/news/1506535/england-men-s-team-win-three-awards-at-british-sports-awards"
+    },
+    {
+      "id": 8,
+      "category": "sport",
+      "headline": "„ICH WOLLTE NICHT, DASS ES SO KOMMT“",
+      "paragraph": "Moreno wehrt sich gegen Enrique-Vorwürfe",
+      "rating": 2,
+      "url": "https://sportbild.bild.de/fussball/international/fussball-international/spanien-robert-moreno-luis-enrique-vorwuerfe-66348682.sport.html9"
+    },
+    {
+      "id": 9,
+      "category": "tech",
+      "headline": "How the Quantum Tech Race Puts the World's Data at Risk",
+      "paragraph": "The technology one-upmanship between the United States and China is fast becoming the new space race. There's been a lot of talk in the press about the competition to reach 5G, but little traction outside of the tech community about something more momentous: the dangers of computing in a post-quantum world.",
+      "rating": 4,
+      "url": "https://www.technewsworld.com/story/86382.html"
+    },
+    {
+      "id": 10,
+      "category": "tech",
+      "headline": "10 things in tech you need to know today",
+      "paragraph": "Good morning! This is the tech news you need to know this Friday.",
+      "rating": 3,
+      "url": "https://www.businessinsider.de/10-things-in-tech-you-need-to-know-today-november-29-2019-11?r=US&IR=T"
+    },
+    {
+      "id": 11,
+      "category": "tech",
+      "headline": "Google Plans to Shame Your Slow Website…And Other Small Business Tech News",
+      "paragraph": "Here are five things in technology that happened this past week and how they affect your business. Did you miss them?",
+      "rating": 5,
+      "url": "https://www.forbes.com/sites/quickerbettertech/2019/11/17/google-plans-to-shame-your-slow-websiteand-other-small-business-tech-news/#17b398fe2e07"
+    },
+    {
+      "id": 12,
+      "category": "tech",
+      "headline": "Microsoft Is Bringing Gmail, Google Drive And Calendar to Outlook…And Other Small Business Tech News",
+      "paragraph": "Here are five things in technology that happened this past week and how they affect your business. Did you miss them?",
+      "rating": 5,
+      "url": "https://www.forbes.com/sites/quickerbettertech/2019/11/24/microsoft-is-bringing-gmail-google-drive-and-calendar-to-outlookand-other-small-business-tech-news/#e62be15f5833"
+    },
+    {
+      "id": 13,
+      "category": "lifestyle",
+      "headline": "KATY PERRY HOPES END OF TAYLOR SWIFT FEUD WILL INSPIRE GIRLS ‘IN THIS TYPE OF SITUATION’",
+      "paragraph": "Katy Perry has spoken about the end of her widely-publicised feud with Taylor Swift, saying she hopes the attention it received has a positive impact on young girls.",
+      "rating": 1,
+      "url": "https://www.independent.co.uk/life-style/katy-perry-taylor-swift-feud-friends-interview-new-album-video-a9009991.html"
+    },
+    {
+      "id": 14,
+      "category": "lifestyle",
+      "headline": "Is Instagram *really* getting rid of likes?",
+      "paragraph": "November 11th is Veterans' Day! The federal holiday marks the perf time to show our appreciation to all the men and women who have fought for our country, and all those who are currently active in the miliary.",
+      "rating": 1,
+      "url": "https://www.girlslife.com/trending/in-the-news/35711/is-instagram-really-getting-rid-of-likes"
+    },
+    {
+      "id": 15,
+      "category": "lifestyle",
+      "headline": "11 ways to thank a veteran today",
+      "paragraph": "Here are five things in technology that happened this past week and how they affect your business. Did you miss them?",
+      "rating": 3,
+      "url": "https://www.girlslife.com/trending/in-the-news/26837/11-ways-to-thank-a-veteran"
+    },
+    {
+      "id": 16,
+      "category": "lifestyle",
+      "headline": "Sexist, much?! This teen was denied entry to homecoming for wearing...",
+      "paragraph": "Last week, we here at Girls' Life celebrated two awesome examples of homecoming inclusion, but unfortch, some schools are still living in the Stone Age.",
+      "rating": 2,
+      "url": "https://www.girlslife.com/trending/in-the-news/35612/sexist-much-this-teen-was-denied-entry-to-homecoming-for-wearing"
+    }
+  ]
+}
