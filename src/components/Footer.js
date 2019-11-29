@@ -27,7 +27,7 @@ const CategoryButton = styled.button`
 export default function Footer() {
   return (
     <FooterContainer>
-      <CategoryButton>Business</CategoryButton>
+      <CategoryButton>Economy</CategoryButton>
       <CategoryButton>Tech</CategoryButton>
       <CategoryButton>Sports</CategoryButton>
       <CategoryButton>Lifestyle</CategoryButton>
