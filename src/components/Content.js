@@ -96,10 +96,3 @@ export default function Content() {
     </ContentContainer>
   );
 }
-
-Content.propTypes = {
-  category: PropTypes.string,
-  headline: PropTypes.string,
-  paragraph: PropTypes.string,
-  rating: PropTypes.number
-};
