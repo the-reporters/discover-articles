@@ -5,7 +5,6 @@ import GlobalStyles from "./GlobalStyles";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
-import Contentlist from "./pages/Conentlist";
 
 //STYLE Start
 
