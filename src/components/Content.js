@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "@emotion/styled";
-import PropTypes from "prop-types";
 
 //STYLE start
 
@@ -18,7 +17,7 @@ const ContentContainer = styled.main`
 const ArticleContainer = styled.div`
   min-width: 270px;
   max-width: 270px;
-  margin: auto;
+  margin: 20px;
 `;
 
 const ArticleParagraph = styled.p`
@@ -67,24 +66,32 @@ const Rating = styled.div`
 
 //STYLE end
 
-export default function Content({ category, headline, paragraph, rating }) {
+export default function Content() {
+  const [content, setContent] = React.useState([]);
+
+  async function fetchContent() {
+    const response = await fetch(" http://localhost:3006/results");
+    const data = await response.json();
+    setContent(data);
+    console.log(data);
+  }
+
+  React.useEffect(() => {
+    fetchContent();
+  }, []);
+
   return (
     <ContentContainer>
-      <ArticleContainer>
-        <Label>{category}</Label>
-        <HeadlineContainer>
-          <h1>{headline}</h1>
-        </HeadlineContainer>
-        <ArticleParagraph>{paragraph}</ArticleParagraph>
-        <Rating>{rating}</Rating>
-      </ArticleContainer>
+      {content.map(article => (
+        <ArticleContainer key={article.id}>
+          <Label>{article.category}</Label>
+          <HeadlineContainer>
+            <h1>{article.headline}</h1>
+          </HeadlineContainer>
+          <ArticleParagraph>{article.paragraph}</ArticleParagraph>
+          <Rating>{article.rating}/5</Rating>
+        </ArticleContainer>
+      ))}
     </ContentContainer>
   );
 }
-
-Content.propTypes = {
-  category: PropTypes.string,
-  headline: PropTypes.string,
-  paragraph: PropTypes.string,
-  rating: PropTypes.number
-};

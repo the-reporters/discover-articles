@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import GlobalStyles from "./GlobalStyles";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
