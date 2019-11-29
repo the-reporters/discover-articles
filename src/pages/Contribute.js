@@ -56,7 +56,7 @@ export default function Contribute() {
     event.preventDefault();
     await fetch("http://localhost:3006/results", {
       method: "POST",
-      header: {
+      headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({ category, headline, paragraph, rating, url })
@@ -111,7 +111,6 @@ export default function Contribute() {
               key={value}
               type="button"
               value={value}
-              active={value === rating}
               onClick={() => setRating(value)}
             />
           ))}
