@@ -1,6 +1,11 @@
 import React from "react";
 import styled from "@emotion/styled";
 import logo from "../assets/Logo.png";
+import { Link } from "react-router-dom";
+
+const LinkName = styled(Link)`
+  text-decoration: none;
+`;
 
 const HeaderContainer = styled.header`
   height: 60px;
@@ -29,7 +34,9 @@ const NewArticle = styled.h3`
 export default function Header() {
   return (
     <HeaderContainer>
-      <NewArticle>Contribute</NewArticle>
+      <LinkName to="/contribute">
+        <NewArticle>Contribute</NewArticle>
+      </LinkName>
       <Logo src={logo} />
     </HeaderContainer>
   );
