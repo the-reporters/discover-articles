@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
 export default function Content({ category, headline, paragraph, rating }) {
-  retrun(
+  return (
     <div>
       <h6>{category}</h6>
       <h3>{headline}</h3>
