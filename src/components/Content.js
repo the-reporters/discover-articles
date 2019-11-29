@@ -12,12 +12,14 @@ const ContentContainer = styled.main`
   flex-basis: 0;
   flex-grow: 1;
   overflow-x: auto;
+  scroll-snap-type: mandatory;
 `;
 
 const ArticleContainer = styled.div`
   min-width: 270px;
   max-width: 270px;
   margin: 20px;
+  scroll-snap-align: center;
 `;
 
 const ArticleParagraph = styled.p`
