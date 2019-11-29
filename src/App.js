@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import GlobalStyles from "./GlobalStyles";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -21,10 +22,14 @@ function App() {
   return (
     <AppContainer>
       <GlobalStyles />
-      <Header />
-      <Content />
-      <Contribute />
-      <Footer />
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Content} />
+          <Route path="/contribute" component={Contribute} />
+        </Switch>
+        <Footer />
+      </Router>
     </AppContainer>
   );
 }
