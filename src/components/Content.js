@@ -16,7 +16,7 @@ const ContentContainer = styled.main`
   flex-basis: 0;
   flex-grow: 1;
   overflow-x: auto;
-  scroll-snap-type: mandatory;
+  scroll-snap-type: x mandatory;
 `;
 
 const ArticleContainer = styled.div`
