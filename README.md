@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Usage
+
+`npm install`
+Terminal 1: `json-server --watch db.json 3006`
+Terminal 2: `npm start`
 
 ## Available Scripts
 
